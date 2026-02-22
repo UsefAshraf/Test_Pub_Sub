@@ -3,7 +3,7 @@
 CREATE COMPUTE MODULE QPolicyMF_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
-		SET OutputRoot = InputRoot;
+		SET OutputRoot = InputRoot ;
 		RETURN TRUE;
 	END;
 
